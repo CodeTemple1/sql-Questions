@@ -1,0 +1,44 @@
+select *
+from actor
+where last_name = "Wahberg";
+2
+
+select *
+from payment
+where amount >3.99 and amount < 5.99;
+3431
+
+
+
+select max (film_id)
+From inventory;
+
+
+
+select
+from Cumtomer
+where Last_name = "william"
+0
+
+
+
+Select *
+from customer
+WHERE last_name like"willams";
+There are no customers with the last name williams
+
+
+Select Distint  district
+from Address
+ 
+
+
+Select film.title, film_actor.actor_id film
+from film
+join film_actor ON film,id = film_actor,film_id
+
+Select *
+from customer
+Where last_name like %es 
+
+
